@@ -19,6 +19,14 @@ This project demonstrates the complete ML lifecycle:
 - Features: Time, V1–V28, Amount
 - Target: Class (0 = Normal, 1 = Fraud)
 
+## Model Performance
+
+- Fraud Recall: 83%
+- Precision: 92%
+- F1-Score: 0.87
+- Class imbalance handled using class_weight="balanced"
+- Threshold tuning applied to improve recall
+
 ## Project Structure
 
 Fraud-Detection-System/
@@ -66,3 +74,4 @@ Note: The dataset is not included in this repository due to size limitations.
 - Real-time transaction scoring
 - Cloud deployment
 - Model monitoring and logging
+
